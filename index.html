@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Moral do Colégio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light">
+    <header class="cabecalho">
+        <h1>Jornal Mural</h1>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#">Desporto</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Natureza</a></li>
+            </ul>
+            <button onclick="Mudarmodos()"  id="light"><span><i class="bi bi-moon"></i></span></button>
+        </nav>
+        <nav class="menu-mobile"> <i onclick="exibirMenu()" class="fas fa-list"></i>
+            <ul class="expandir">
+                <li ><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+        <section class="jornal">
+            <h1>Desporto</h1>
+             <div class="container swiper">
+                <div class="slider-wrapper">
+                   <div class="card-lista swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img id="img1" src="" alt="" class="user-imagem">
+                       <h2>Apostas</h2>
+                        <p class="texto">Elephant Bet apoia o evento Sintonia no Palmeiras Club</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img2" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">Portugal manteve a sétima posição no ranking da FIFA, numa classificação em que Angola tem a maior subida.</p>
+                        
+                    </div>
+                  
+                   
+                    <div class="card-item swiper-slide">
+                        <img id="img3" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">Villas-Boas quer andebol e hóquei feminino no F. C. Porto.
+                        </p>
+                       
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img4" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">Portugal, Espanha e Marrocos 'unidos'... no balneário do Paris SG</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img5" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">Benfica pediu penálti neste lance na Choupana. Árbitro mandou seguir</p>
+                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img6" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">Vitória SC-Fiorentina: 'Oitavos' praticamente no bolso, mas...</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img7" src="" alt="" class="user-imagem">
+                        <h2>Futebool</h2>
+                        <p class="texto">"Quando eu era pequenino ia ver Ruben Amorim aos jogos do Benfica"</p>
+                        
+                    </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+                </div>
+             </div>
+          
+        </section>
+        <section class="jornal">
+            <h1>Tecnologia</h1>
+             <div class="container swiper">
+                <div class="slider-wrapper">
+                   <div class="card-lista swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img id="img8" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">Falta de dados pode ser um problema para a inteligência artificial</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img9" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">IA será capaz de se reproduzir sozinha até 2028, diz ex-executivo da OpenAI</p>
+                       
+                    </div>
+                  
+                   
+                    <div class="card-item swiper-slide">
+                        <img id="img10" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">Foto do James Webb prova que teoria astronômica sobre planetas está errada</p>
+                       
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img11" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">DNA humano antigo revela ramo perdido da árvore genealógica humana</p>
+                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img12" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">
+                            Esperma de rato orbitando a Terra pode ser o futuro da humanidade?
+                            </p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img13" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">Nasa retarda volta de astronautas Wilmore e Williams à Terra</p>
+                       
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img14" src="" alt="" class="user-imagem">
+                        <h2>Tecnologia</h2>
+                        <p class="texto">
+                            Laços sociais são essenciais para macacos-prego aprenderem habilidades
+                            </p>
+                       
+                    </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+                </div>
+             </div>
+         
+        </section>
+
+        <section class="jornal">
+            <h1>Política</h1>
+             <div class="container swiper">
+                <div class="slider-wrapper">
+                   <div class="card-lista swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img id="img15" src="" alt="" class="user-imagem">
+                        <h2>Político</h2>
+                        <p class="texto">Oposição interna da IL procura nome para disputar liderança com Rui Rocha.</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img16" src="" alt="" class="user-imagem">
+                        <h2>Político</h2>
+                        <p class="texto">O pensamento político de Gouveia e Melo. Almirante centrista alia preocupações económicas e sociais</p>
+                      
+                    </div>
+                  
+                   
+                    <div class="card-item swiper-slide">
+                        <img id="img17" src="" alt="" class="user-imagem">
+                        <h2>Político</h2>
+                        <p class="texto">Rui Rocha diz que Portugal perderia "bom militar" se Gouveia e Melo se candidatar a Belém</p>
+                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img18" src="" alt="" class="user-imagem">
+                        <h2>Político</h2>
+                        <p class="texto">Joe Biden em Angola: Presidente norte-americano é recebido no Palácio da Cidade Alta.</p>
+                    
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img19" src="" alt="" class="user-imagem">
+                        <h2>Político</h2>
+                        <p class="texto">Ventura defende-se: Era uma ação de "Comunicação" aos cidadãos para avisar que "estavam a ser roubados"</p>
+                       
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img20" src="" alt="" class="user-imagem">
+                        <h2>Ministério da Saúde</h2>
+                        <p class="texto">Ministra da Saúde devolve verba que recebeu a mais</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img21" src="" alt="" class="user-imagem">
+                        <h2>Parlamento</h2>
+                        <p class="texto">Autarcas lamentam não reposição de freguesias</p>
+                      
+                    </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+                </div>
+             </div>
+           
+        </section>
+
+        <section class="jornal">
+            <h1>Natureza</h1>
+             <div class="container swiper">
+                <div class="slider-wrapper">
+                   <div class="card-lista swiper-wrapper">
+                    <div class="card-item swiper-slide">
+                        <img id="img22" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">2023 foi o ano mais seco para os rios a nível mundial desde 1990</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img23" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">Das beringelas de seis quilos ao feijão verde com mais de meio metro</p>
+                        
+                    </div>
+                  
+                   
+                    <div class="card-item swiper-slide">
+                        <img id="img24" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">Hipopótamos com chapéus, ursos polares no judo e corujas sem vergonha: as fotos mais engraçadas da vida selvagem deste ano</p>
+                      
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img25" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">Os lobos estão na mira dos governos da UE</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img26" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">Gaivotas e quatro outras espécies estão agora em risco de extinção</p>
+                       
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img27" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">Porque é que a UE quer reduzir a protecção do lobo cinzento?</p>
+                        
+                    </div>
+                    <div class="card-item swiper-slide">
+                        <img id="img28" src="" alt="" class="user-imagem">
+                        <h2>Natureza</h2>
+                        <p class="texto">COP16: Aumenta a pressão sobre a UE antes da Cimeira da Biodiversidade</p>
+                       
+                    </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                    <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+                </div>
+             </div>
+          
+        </section>
+
+        
+
+       
+    </main>
+
+    <footer class="rodape"><p>&copy;2024 Jornal moral. Todos os direitos reservados a Nsingui</p> <br>
+    <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
